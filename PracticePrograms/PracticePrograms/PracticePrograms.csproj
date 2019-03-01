@@ -44,12 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PracticeItems\AskForName\AskForName.cs" />
+    <Compile Include="PracticeItems\CalculateLeapYears\CalculateLeapYears.cs" />
+    <Compile Include="PracticeItems\GuessingGame\GuessingGame.cs" />
     <Compile Include="PracticeItems\HelloWorld\HelloWorld.cs" />
     <Compile Include="Interfaces\IPracticeProgram.cs" />
     <Compile Include="PracticeItems\MultiplicationTable\MultiplicationTable.cs" />
     <Compile Include="PracticeItems\MultiplicationTable\PrintTable.cs" />
     <Compile Include="PracticeItems\MultiplicationTable\TableMath.cs" />
     <Compile Include="PracticeItems\NumberSum\NumberSum.cs" />
+    <Compile Include="PracticeItems\PrimeNumbers\PrimeNumbers.cs" />
     <Compile Include="PracticeItems\SumOrProduct\SumOrProduct.cs" />
     <Compile Include="PracticeProgram.cs" />
     <Compile Include="Program.cs" />

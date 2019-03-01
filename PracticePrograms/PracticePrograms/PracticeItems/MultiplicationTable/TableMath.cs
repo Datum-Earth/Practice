@@ -8,6 +8,14 @@ namespace PracticePrograms.PracticeItems
 {
     public static class TableMath
     {
+        public static Page GetPage(int desiredPageSize, int maximum)
+        {
+            var divided = maximum / desiredPageSize;
+            var remainder = maximum % desiredPageSize;
+
+            return new Page() { PageCount = divided, Remainder = remainder };
+        }
+
         public static bool IsSquare(double i, out double result)
         {
             double calc = Math.Sqrt(i);
@@ -74,6 +82,12 @@ namespace PracticePrograms.PracticeItems
             None,
             Lesser,
             Greater
+        }
+
+        public class Page
+        {
+            public int PageCount { get; set; }
+            public int Remainder { get; set; }
         }
     }
 }

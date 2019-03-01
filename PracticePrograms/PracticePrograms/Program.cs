@@ -20,7 +20,10 @@ namespace PracticePrograms
             //Run(new AskForName(), new string[1] { "true" });
             //Run(new NumberSum(), new string[2] { "17", "true" });
             //Run(new SumOrProduct());
-            Run(new MultiplicationTable(), new string[1] { "5" });
+            //Run(new MultiplicationTable(), new string[1] { "5" });
+            //Run(new PrimeNumbers());
+            //Run(new GuessingGame());
+            Run(new CalculateLeapYears());
             Console.ReadLine();
 
         }
