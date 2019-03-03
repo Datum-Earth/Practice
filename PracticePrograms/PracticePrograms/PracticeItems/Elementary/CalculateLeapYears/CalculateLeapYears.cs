@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticePrograms.PracticeItems
+namespace PracticePrograms.PracticeItems.Elementary
 {
     /* https://adriann.github.io/programming_problems.html
      * 

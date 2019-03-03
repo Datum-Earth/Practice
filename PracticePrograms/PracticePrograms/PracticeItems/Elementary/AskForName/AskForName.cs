@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticePrograms.PracticeItems
+namespace PracticePrograms.PracticeItems.Elementary
 {
     public class AskForName : IPracticeProgram
     {

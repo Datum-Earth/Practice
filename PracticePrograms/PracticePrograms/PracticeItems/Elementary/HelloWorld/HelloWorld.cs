@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using PracticePrograms.Interfaces;
 
-namespace PracticePrograms.PracticeItems
+namespace PracticePrograms.PracticeItems.Elementary
 {
     public class HelloWorld : IPracticeProgram
     {

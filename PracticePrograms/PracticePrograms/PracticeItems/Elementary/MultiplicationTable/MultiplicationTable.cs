@@ -1,4 +1,5 @@
 ﻿using PracticePrograms.Interfaces;
+using PracticePrograms.PracticeItems;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticePrograms.PracticeItems
+namespace PracticePrograms.PracticeItems.Elementary
 {
     public class MultiplicationTable : IPracticeProgram
     {

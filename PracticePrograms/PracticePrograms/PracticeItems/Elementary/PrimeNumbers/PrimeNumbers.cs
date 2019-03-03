@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static PracticePrograms.PracticeItems.TableMath;
 
-namespace PracticePrograms.PracticeItems
+namespace PracticePrograms.PracticeItems.Elementary
 {
     public class PrimeNumbers : IPracticeProgram
     {

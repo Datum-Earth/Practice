@@ -43,17 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PracticeItems\AskForName\AskForName.cs" />
-    <Compile Include="PracticeItems\CalculateLeapYears\CalculateLeapYears.cs" />
-    <Compile Include="PracticeItems\GuessingGame\GuessingGame.cs" />
-    <Compile Include="PracticeItems\HelloWorld\HelloWorld.cs" />
+    <Compile Include="PracticeItems\Elementary\AskForName\AskForName.cs" />
+    <Compile Include="PracticeItems\Elementary\CalculateLeapYears\CalculateLeapYears.cs" />
+    <Compile Include="PracticeItems\Elementary\GuessingGame\GuessingGame.cs" />
+    <Compile Include="PracticeItems\Elementary\HelloWorld\HelloWorld.cs" />
     <Compile Include="Interfaces\IPracticeProgram.cs" />
-    <Compile Include="PracticeItems\MultiplicationTable\MultiplicationTable.cs" />
-    <Compile Include="PracticeItems\MultiplicationTable\PrintTable.cs" />
-    <Compile Include="PracticeItems\MultiplicationTable\TableMath.cs" />
-    <Compile Include="PracticeItems\NumberSum\NumberSum.cs" />
-    <Compile Include="PracticeItems\PrimeNumbers\PrimeNumbers.cs" />
-    <Compile Include="PracticeItems\SumOrProduct\SumOrProduct.cs" />
+    <Compile Include="PracticeItems\Elementary\MultiplicationTable\MultiplicationTable.cs" />
+    <Compile Include="PracticeItems\Elementary\MultiplicationTable\PrintTable.cs" />
+    <Compile Include="PracticeItems\Elementary\MultiplicationTable\TableMath.cs" />
+    <Compile Include="PracticeItems\Elementary\NumberSum\NumberSum.cs" />
+    <Compile Include="PracticeItems\Elementary\PrimeNumbers\PrimeNumbers.cs" />
+    <Compile Include="PracticeItems\Elementary\SummationProblem\SummationProblem.cs" />
+    <Compile Include="PracticeItems\Elementary\SumOrProduct\SumOrProduct.cs" />
+    <Compile Include="PracticeItems\Text\LargestElement\LargestElement.cs" />
+    <Compile Include="PracticeItems\Text\LargestElement\ListReversal.cs" />
     <Compile Include="PracticeProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -61,5 +64,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
