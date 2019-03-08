@@ -56,7 +56,12 @@
     <Compile Include="PracticeItems\Elementary\SummationProblem\SummationProblem.cs" />
     <Compile Include="PracticeItems\Elementary\SumOrProduct\SumOrProduct.cs" />
     <Compile Include="PracticeItems\Text\LargestElement\LargestElement.cs" />
-    <Compile Include="PracticeItems\Text\LargestElement\ListReversal.cs" />
+    <Compile Include="PracticeItems\Text\ListReversal\DoubleLink\DoublyLinkedList.cs" />
+    <Compile Include="PracticeItems\Text\ListReversal\DoubleLink\DoublyLinkedNode.cs" />
+    <Compile Include="PracticeItems\Text\ListReversal\ICustomList.cs" />
+    <Compile Include="PracticeItems\Text\ListReversal\ListReversal.cs" />
+    <Compile Include="PracticeItems\Text\ListReversal\SingleLink\SinglyLinkedList.cs" />
+    <Compile Include="PracticeItems\Text\ListReversal\SingleLink\SinglyLinkedNode.cs" />
     <Compile Include="PracticeProgram.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

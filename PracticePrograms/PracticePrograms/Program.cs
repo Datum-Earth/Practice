@@ -30,6 +30,7 @@ namespace PracticePrograms
             #endregion
 
             //Run(new LargestElement());
+            Run(new ListReversal());
 
             Console.ReadLine();
 
